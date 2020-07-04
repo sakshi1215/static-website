@@ -1,0 +1,158 @@
+body
+{
+    font-family: "Economica",sans-serif;
+    color:grey;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,.caption
+{
+    font-family:"odibee sans", cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 1em;
+    color:rgb(83, 82, 82);
+    font-size:x-large;
+    
+}
+h2{
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+header
+{
+    padding-bottom: 2em;
+}
+.fixed
+{
+    width: 980px;
+    margin:0 auto;
+    position: relative;
+
+}
+.navi
+{
+    position: relative;
+    float: right;
+    text-transform: uppercase;
+}
+.navi li 
+{
+    float:left;
+    color:#bfbfbf;
+    margin-left: 0.2rem;
+    margin-right: 0.4rem;
+    margin-top: 3rem;
+}
+.navi li em
+{
+    display: block;
+    color:rgb(92, 85, 85);
+    font-size: 1.6rem;
+    font-family: "odibee sans", cursive;
+    font-style: normal;
+    text-align: center;
+}
+.blit
+{
+   font-family: "pacifico",cursive; 
+   font-size: 4rem;
+   position: static;
+   bottom: 10px;
+   text-decoration: underline;
+   
+
+}
+
+/*===========
+footer
+=========*/
+.page-footer
+{
+    margin-top: 370px;
+    background-color:rgb(235, 232, 232);
+    color:rgb(94, 91, 91);
+    font-size: 1rem;
+    height: 70px;
+    
+    
+}
+.footer-content{
+    width:980px;
+    margin:0 auto;
+    padding-top: 1.7em;
+    
+    
+}
+.copyright
+{
+    float: left;
+}
+.credit
+{
+    float: right;
+}
+
+/*==============
+main visual
+==========*/
+.main-visual
+{
+    width:980px;
+    margin:0 auto;
+}
+.news
+{
+    position: relative;
+    width:980px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.claim{
+    width:27%;
+    margin: 3%;
+    float: left;
+}
+
+/*===========
+portolio
+===========*/
+.portfolio
+{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    background-color: rgb(206, 209, 209);
+    height: 40px;
+    margin-top: 320px;
+
+}
+.title-wrapper
+{
+    text-align: center;
+}
+
+.porti{
+    padding:10px;
+    width: 980px;
+    margin:0 auto;
+}
+.port{
+    float:left;
+    width: 25%;
+}
+
+#caption
+{
+    background-color: rgb(230, 224, 224);
+    color: rgb(90, 89, 89);
+}
